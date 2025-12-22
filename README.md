@@ -1,2 +1,7 @@
 # freeSpider
 基于docker部署的一款支持动态JS爬取的高性能爬虫服务，支持API调用
+
+# 安装与部署
+DOCKER_BUILDKIT=1 docker build -t hz-spider:1.2 .
+
+
